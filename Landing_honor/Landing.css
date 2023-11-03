@@ -1,0 +1,317 @@
+@font-face {
+    font-family: 'honor-bold';
+    src: url(./Font/HONOR_Sans_World/HONORSansWorld-Bold.ttf) format(trueface);
+}
+@font-face {
+    font-family: 'honor-demibold';
+    src: url(./Font/HONOR_Sans_World/HONORSansWorld-Demibold.ttf) format(trueface);
+}
+@font-face {
+    font-family: 'honor-extrabold';
+    src: url(./Font/HONOR_Sans_World/HONORSansWorld-ExtraBold.ttf) format(trueface);
+}
+@font-face {
+    font-family: 'honor-extrali';
+    src: url(./Font/HONOR_Sans_World/HONORSansWorld-ExtraLight.ttf) format('trueface');
+}
+@font-face {
+    font-family: 'honor-hevy';
+    src: url(./Font/HONOR_Sans_World/HONORSansWorld-Heavy.ttf) format('trueface');
+}
+@font-face {
+    font-family: 'honor-light';
+    src: url(./Font/HONOR_Sans_World/HONORSansWorld-Light.ttf) format('trueface');
+}
+@font-face {
+    font-family: 'honor-medi';
+    src: url(./Font/HONOR_Sans_World/HONORSansWorld-Medium.ttf) format('trueface');
+}
+@font-face {
+    font-family: 'honor-regu';
+    src: url(./Font/HONOR_Sans_World/HONORSansWorld-Regular.ttf) format('trueface');
+}
+@font-face {
+    font-family: 'honor-thin';
+    src: url(./Font/HONOR_Sans_World/HONORSansWorld-Thin.ttf) format('trueface');
+}
+body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.Honor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0;
+    padding: 0;
+    
+}
+img{
+    position: relative;
+    width: 95%;
+}
+.banner{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.banner-sale{
+    margin-bottom: 100px;
+}
+.banner img{
+    width: 100%;
+}
+.watch-honor{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    background-color: rgb(240, 239, 239);
+    border-radius: 10px;
+    margin-bottom: 100px;
+    padding: 30px;
+    
+}
+.watch-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.watch-img img{
+    width: 50%;
+    
+}
+.watch-img span{
+    margin-top: 30px;
+}
+.watch-content-2 span{
+    display: block;
+    width: 300px;
+} 
+.watch-content-3 span{
+    display: block;
+    width: 341px;
+}
+.watch-content-4 span{
+    display: block;
+    width: 387px;
+}
+.watch-content-5 h3{
+    margin-top: 10px;
+}
+.watch-content-5 span{
+    display: block;
+    width: 300px;
+}
+.color-honor{
+    position: relative;
+    left: 30px;
+    margin-bottom: 100px;
+}
+.honor-1{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    left: 30px;
+    margin-bottom: 100px;
+}
+.honor-1 img{
+    width: 95%;
+    text-align: left;
+}
+.honor-1-content{
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+.honor-1-content h3{
+    width: 300px;
+}
+.honor-1-content span{
+    display: flex;
+    flex-direction: column;
+}
+.honor-2{
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 10px;
+    left: 30px;
+    margin-bottom: 100px;
+}
+.honor-2 img{
+    width: 95%;
+}
+.honor-2-content{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.honor-2-content h3{
+    width: 425px;
+}
+.honor-2-content span{
+    position: relative;
+    width: 525px;
+    right: 0;
+}
+.honor-3{
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.honor-3-content{
+    position: relative;
+    text-align: center;
+    top: 0;
+    margin-bottom: 40px;
+}
+.honor-3-content h3{
+    width: 915px;
+    text-align: center;
+}
+.honor-3-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+.honor-3-img img{
+    margin: 5px;
+    width: 46%;
+}
+.honor-4{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.honor-4 img{
+    left: 30px;
+    width: 65%;
+}
+.honor-4-content{
+    width: 335px;
+}
+.honor-5{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    left: 30px;
+    margin-bottom: 100px;
+}
+.honor-5-content{
+    position: relative;
+    text-align: left;
+    top: 0;
+    margin-bottom: 20px;
+}
+.honor-5-img{
+    display: flex;
+    width: 100%;
+
+}
+.honor-5-img img{
+    width: 90%;
+}
+.honor-5-img span{
+    margin-top: 10px;
+}
+.honor-5-img-1{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.honor-5-img-2{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.honor-6{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.honor-6 img{
+    width: 75%;
+}
+.honor-6-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+.honor-8{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 100px;
+}
+.honor-8 img{
+    display: flex;
+    align-items: flex-start;
+    width: 1200px;
+}
+.honor-8-content{
+    position: absolute;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    left: 300px;
+}
+.honor-8-content h3{
+    width: 370px;
+}
+.honor-7{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-bottom: 200px;
+}
+.honor-7-descrip{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+.main{
+    width: 260px;
+}
+.sub-main-1{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.sub-main-2{
+    display: flex;
+    flex-direction: column;
+}
+.honor-7-descrip-2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.sub-main-3 h3{
+    margin-bottom: 10px;
+}
+.sub-main-4{
+    width: 579px;
+}
+.sub-main-4 h3{
+    margin-bottom: 10px;
+}
+
+
